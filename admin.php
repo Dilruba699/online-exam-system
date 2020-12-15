@@ -15,7 +15,7 @@ session_start();
 if(isset($_SESSION['email'])){
 session_unset();}
 $_SESSION["name"] = 'Admin';
-$_SESSION["key"] ='thusar289236';
+$_SESSION["key"] ='dilruba2238';
 $_SESSION["email"] = $email;
 header("location:dash.php?q=0");
 }
